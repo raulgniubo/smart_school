@@ -38,14 +38,14 @@ and open the template in the editor.
     -fx-background-color: transparent;
     -fx-border-color: #727272;
     -fx-border-radius: 5px;
-    -fx-text-fill: white;
+    -fx-text-fill: black;
     -fx-font-family: "Avenir Next Regular";
     -fx-font-size: 13px;
 }
 
 .textFieldsFX {
     -fx-prompt-text-fill: #a0a2ab;
-    -fx-text-fill: white;
+    -fx-text-fill: black;
     -fx-font-family: "Avenir Next Regular";
     -fx-font-size: 13px;
 }
