@@ -1,0 +1,194 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 9, 2020, 12:05:52 PM
+    Author     : raulg
+    fonts: Courier New, Avenir next
+*/
+
+.mainWindow {
+    -fx-background-color: #fff;
+}
+
+.textFields {
+    -fx-background-color: transparent;
+    -fx-border-color: #727272;
+    -fx-border-radius: 5px;
+    -fx-text-fill: black;
+    -fx-font-family: "Avenir Next Regular";
+    -fx-font-size: 13px;
+}
+
+.buttons {
+    -fx-background-color: #5f6dee;
+    -fx-text-fill: white;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-font-family: "Avenir Next Regular";
+    -fx-font-size: 13px;
+}
+
+.buttons:hover {
+    -fx-background-color: #9ab3f5;
+}
+
+.labels {
+    -fx-font-family: "Avenir Next Regular";
+}
+
+.closeButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #5f6dee;
+    -fx-border-width: 0px 0px 2px 0px;
+    -fx-border-color: #5f6dee;
+    -fx-font-family: "Avenir Next Regular";
+    -fx-font-size: 13px;
+}
+
+.closeButton:hover {
+    -fx-text-fill: #9ab3f5;
+    -fx-border-color: #9ab3f5;
+}
+
+.buttonLinks {
+    -fx-background-color: transparent;
+    -fx-text-fill: #5f6dee;
+    -fx-font-family: "Avenir Next Regular";
+}
+
+.buttonLinks:hover {
+    -fx-text-fill: #9ab3f5;
+}
+
+.menuButtons {
+    -fx-background-color: transparent;
+    -fx-text-fill: #727272;
+    -fx-font-family: "Avenir Next Regular";
+}
+
+.menuButtons:hover {
+    -fx-background-color: #9ab3f5;
+}
+
+.PaneOnSide {
+    -fx-background-color: #ecf0f4;
+    -fx-effect: dropshadow(three-pass-box, grey, 10, 0, 0, 5);
+}
+
+.paneOnTop {
+    -fx-background-color: #fff;
+    -fx-effect: dropshadow(three-pass-box, grey, 2, 0, 0, 2);
+}
+
+.searchTextField {
+    -fx-border-width: 0px 0px 0px 0px;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-prompt-text-fill: black;
+    
+}
+
+.filterButtons {
+    -fx-background-color: #5f6dee;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-family: "Avenir Next Regular";
+    -fx-font-size: 13px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-text-alignment: center;
+    -fx-content-display: center;
+}
+
+.filterButtons:hover {
+    -fx-background-color: #9ab3f5;
+}
+
+.filterButtonsUnselected {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-family: "Avenir Next Regular";
+    -fx-font-size: 13px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-text-alignment: center;
+    -fx-content-display: center;
+}
+
+.filterButtonsUnselected:hover {
+    -fx-background-color: #9ab3f5;
+}
+
+.plusImage {
+    -fx-background-color: #5f6dee;
+    -fx-fill: yellow;
+    -fx-stroke: green;
+}
+
+.scroll-pane{
+   -fx-background-color:transparent;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.textArea {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.textFieldTitle {
+    -fx-background-color: transparent;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-color: #727272;
+}
+
+/* 
+.text-area {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area:focused .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area:focused {
+    -fx-highlight-fill: #7ecfff;
+}
+
+.text-area .content {
+    -fx-padding: 10px;
+    -fx-text-fill: gray;
+    -fx-highlight-fill: #7ecfff;
+}
+
+*/
+
+.htmlEditor {
+    -fx-font-family: "Avenir Next Regular";
+}
+
+.checkBoxes {
+    -fx-font-family: "Avenir Next Regular";
+    -fx-text-fill: #727272;
+}
+
+.smallContainers {
+    -fx-background-color: #F0F2F8;
+    -fx-background-radius: 20;
+}
+
+.smallContainers:hover
+{
+-fx-background-color: #e5e5e5;
+}

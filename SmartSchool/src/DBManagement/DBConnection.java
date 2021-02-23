@@ -27,7 +27,7 @@ public class DBConnection {
     private static final String HOSTNAME = "sql124.main-hosting.eu";
     private static final String DBCONN = "jdbc:mysql://" + HOSTNAME + "/" + DBNAME;
     
-    public Connection getConnection() {
+    public static Connection getConnection() {
 	Connection connection = null;
         
         try {
