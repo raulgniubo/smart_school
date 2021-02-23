@@ -13,13 +13,57 @@ and open the template in the editor.
     -fx-background-color: #fff;
 }
 
+.windowBackground {
+    -fx-background-color: #2D3447;
+}
+
+#signUpButoon {
+    -fx-background-color: #151928;
+    -fx-text-fill: #727272;
+    -fx-alignment: center;
+    -fx-background-radius: 5px;
+    -fx-font-family: "Avenir Next Regular";
+}
+
+#notAMember {
+    -fx-background-color: transparent;
+    -fx-text-fill: #a0a2ab;
+    -fx-alignment: center;
+    -fx-background-radius: 5px;
+    -fx-font-family: "Avenir Next Regular";
+    -fx-font-size: 14px;
+}
+
 .textFields {
     -fx-background-color: transparent;
     -fx-border-color: #727272;
     -fx-border-radius: 5px;
-    -fx-text-fill: black;
+    -fx-text-fill: white;
     -fx-font-family: "Avenir Next Regular";
     -fx-font-size: 13px;
+}
+
+.textFieldsFX {
+    -fx-prompt-text-fill: #a0a2ab;
+    -fx-text-fill: white;
+    -fx-font-family: "Avenir Next Regular";
+    -fx-font-size: 13px;
+}
+
+.buttonsFX {
+    -fx-background-color: #5f6dee;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-font-family: "Avenir Next Regular";
+    -fx-font-size: 14px;
+}
+
+.buttonsFXUnderlined {
+    -fx-background-color: transparent;
+    -fx-text-fill: #727272;
+    -fx-background-radius: 5px;
+    -fx-font-family: "Avenir Next Regular";
+    -fx-font-size: 14px;
 }
 
 .buttons {
