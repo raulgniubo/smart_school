@@ -14,6 +14,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -37,6 +38,8 @@ public class Main extends Application {
         //scene.setFill(Color.TRANSPARENT);
         stage.setScene(scene);
         //stage.initStyle(StageStyle.TRANSPARENT);
+        //stage.initModality(Modality.APPLICATION_MODAL);
+        stage.setResizable(false);
         stage.setTitle("Smart School");
         
         int windowCode = FXMLParentController.registerNewWindow

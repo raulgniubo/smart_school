@@ -22,7 +22,7 @@
          </image>
       </ImageView>
       <Label id="notAMember" layoutX="502.0" layoutY="17.0" prefHeight="34.0" prefWidth="98.0" stylesheets="@../../CSS/mainStyle.css" text="Not member?" />
-      <JFXButton layoutX="608.0" layoutY="17.0" prefHeight="34.0" prefWidth="71.0" styleClass="buttonsFX" text="Sign Up" />
+      <JFXButton layoutX="608.0" layoutY="17.0" onAction="#signUp" prefHeight="34.0" prefWidth="71.0" styleClass="buttonsFX" text="Sign Up" />
       <Label layoutX="403.0" layoutY="100.0" styleClass="labels" text="Login to Smart School">
          <font>
             <Font name="Avenir Next Regular" size="24.0" />

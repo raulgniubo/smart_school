@@ -31,7 +31,8 @@ public class JavaFXUseful extends FXMLParentController {
             makeTransparentWhenDragging(stage, pane, 1.0f);  // 0.5f for transparency
 
             stage.initModality(Modality.APPLICATION_MODAL);
-            stage.initStyle(StageStyle.TRANSPARENT);
+            stage.setResizable(false);
+            //stage.initStyle(StageStyle.TRANSPARENT);
             
             stage.show();
             return windowCode;
@@ -62,7 +63,8 @@ public class JavaFXUseful extends FXMLParentController {
             makeTransparentWhenDragging(stage, pane, 1.0f);  // 0.5f for transparency
 
             stage.initModality(Modality.APPLICATION_MODAL);
-            stage.initStyle(StageStyle.TRANSPARENT);
+            stage.setResizable(false);
+            //stage.initStyle(StageStyle.TRANSPARENT);
             
             stage.show();
             
