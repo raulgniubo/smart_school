@@ -10,7 +10,7 @@ and open the template in the editor.
 */
 
 .mainWindow {
-    -fx-background-color: #fff;
+    /*-fx-background-color: #fff;*/
 }
 
 .windowBackground {
@@ -44,6 +44,15 @@ and open the template in the editor.
 }
 
 .textFieldsFX {
+    -fx-prompt-text-fill: #a0a2ab;
+    -fx-text-fill: black;
+    -fx-font-family: "Avenir Next Regular";
+    -fx-font-size: 13px;
+}
+
+.textFieldsFXWhiteBG {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
     -fx-prompt-text-fill: #a0a2ab;
     -fx-text-fill: black;
     -fx-font-family: "Avenir Next Regular";
