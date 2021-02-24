@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="1100.0" stylesheets="@../../CSS/mainStyle.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Controller.Dashboard.DashboardFXMLController">
+   <children>
+      <AnchorPane layoutX="-26.0" prefHeight="620.0" prefWidth="217.0" styleClass="sidePane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-26.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="178.0" fitWidth="188.0" layoutX="25.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/Smart%20School%20Logo.png" />
+               </image>
+            </ImageView>
+            <VBox layoutX="44.0" layoutY="100.0" spacing="10.0">
+               <children>
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="39.0" prefWidth="154.0" text="Dashboard" textFill="#5f6dee">
+                     <font>
+                        <Font name="Avenir Medium" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/Dashboard_icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="39.0" prefWidth="154.0" text="Assignments" textFill="#5f6dee">
+                     <font>
+                        <Font name="Avenir Medium" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/Assignment_icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="39.0" prefWidth="154.0" text="Exams" textFill="#5f6dee">
+                     <font>
+                        <Font name="Avenir Medium" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/exams_icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="39.0" prefWidth="154.0" text="Notes" textFill="#5f6dee">
+                     <font>
+                        <Font name="Avenir Medium" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/notes_icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="39.0" prefWidth="154.0" text="Todo-List" textFill="#5f6dee">
+                     <font>
+                        <Font name="Avenir Medium" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/todo_list_icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="39.0" prefWidth="154.0" text="Classes" textFill="#5f6dee">
+                     <font>
+                        <Font name="Avenir Medium" size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/classes_icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </VBox>
+            <JFXButton alignment="BASELINE_LEFT" layoutX="44.0" layoutY="554.0" prefHeight="39.0" prefWidth="154.0" text="Settings" textFill="#5f6dee">
+               <font>
+                  <Font name="Avenir Medium" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/settings_icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
