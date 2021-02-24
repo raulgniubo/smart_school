@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="1100.0" stylesheets="@../../CSS/mainStyle.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Controller.Dashboard.DashboardFXMLController">
+<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="1100.0" stylesheets="@../../CSS/mainStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Dashboard.DashboardFXMLController">
    <children>
       <AnchorPane layoutX="-26.0" prefHeight="620.0" prefWidth="217.0" styleClass="sidePane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-26.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -107,5 +112,227 @@
             </JFXButton>
          </children>
       </AnchorPane>
+      <Pane layoutX="191.0" layoutY="67.0" prefHeight="551.0" prefWidth="908.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="43.0" layoutY="5.0" prefHeight="39.0" prefWidth="217.0" text="Welcome back Raul!">
+               <font>
+                  <Font name="Avenir Medium" size="14.0" />
+               </font>
+            </Label>
+            <Pane layoutX="43.0" layoutY="53.0" prefHeight="247.0" prefWidth="231.0" styleClass="paneOnDB">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="29.0" prefWidth="200.0" text="Your Overall Progress">
+                     <font>
+                        <Font name="Avenir Medium" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="14.0" layoutY="42.0" prefHeight="73.0" prefWidth="76.0" text="55" textFill="#8eb264">
+                     <font>
+                        <Font name="Avenir Next Regular" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="102.0" layoutY="65.0" text="Points">
+                     <font>
+                        <Font name="Avenir Next Regular" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="43.0" layoutY="323.0" prefHeight="214.0" prefWidth="231.0" styleClass="paneOnDB">
+               <children>
+                  <Label layoutX="16.0" layoutY="14.0" prefHeight="29.0" prefWidth="200.0" text="Active Classes">
+                     <font>
+                        <Font name="Avenir Medium" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="298.0" layoutY="53.0" prefHeight="199.0" prefWidth="200.0" styleClass="paneOnDB">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="29.0" prefWidth="178.0" text="Assignments Coming Up">
+                     <font>
+                        <Font name="Avenir Medium" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="528.0" layoutY="53.0" prefHeight="199.0" prefWidth="200.0" styleClass="paneOnDB">
+               <children>
+                  <Label layoutX="11.0" layoutY="14.0" prefHeight="29.0" prefWidth="178.0" text="Exams Coming Up">
+                     <font>
+                        <Font name="Avenir Medium" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="298.0" layoutY="276.0" prefHeight="259.0" prefWidth="428.0" styleClass="paneOnDB">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="29.0" prefWidth="200.0" text="Latest Notes">
+                     <font>
+                        <Font name="Avenir Medium" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="754.0" layoutY="53.0" prefHeight="482.0" prefWidth="154.0" styleClass="paneOnDB">
+               <children>
+                  <Label layoutX="11.0" layoutY="14.0" prefHeight="29.0" prefWidth="120.0" text="Todo-List">
+                     <font>
+                        <Font name="Avenir Medium" size="14.0" />
+                     </font>
+                  </Label>
+                  <VBox layoutX="11.0" layoutY="82.0" prefHeight="130.0" prefWidth="133.0" spacing="15.0">
+                     <children>
+                        <JFXCheckBox text="Do Assgn 1">
+                           <font>
+                              <Font name="Avenir Next Regular" size="12.0" />
+                           </font>
+                        </JFXCheckBox>
+                        <JFXCheckBox text="Set-Up Printer">
+                           <font>
+                              <Font name="Avenir Next Regular" size="12.0" />
+                           </font>
+                        </JFXCheckBox>
+                        <JFXCheckBox text="Study Calculus">
+                           <font>
+                              <Font name="Avenir Next Regular" size="12.0" />
+                           </font>
+                        </JFXCheckBox>
+                        <JFXCheckBox text="Write Down Goals">
+                           <font>
+                              <Font name="Avenir Next Regular" size="12.0" />
+                           </font>
+                        </JFXCheckBox>
+                     </children>
+                  </VBox>
+                  <HBox layoutX="14.0" layoutY="54.0">
+                     <children>
+                        <Label text="Today" underline="true">
+                           <font>
+                              <Font name="Avenir Next Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="19.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/arrow_down_icon.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="14.0" layoutY="241.0">
+                     <children>
+                        <Label text="Inbox" underline="true">
+                           <font>
+                              <Font name="Avenir Next Regular" size="13.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="19.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../Images/arrow_down_icon.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <VBox layoutX="11.0" layoutY="269.0" prefHeight="130.0" prefWidth="133.0" spacing="15.0">
+                     <children>
+                        <JFXCheckBox text="Start the Gym">
+                           <font>
+                              <Font name="Avenir Next Regular" size="12.0" />
+                           </font>
+                        </JFXCheckBox>
+                        <JFXCheckBox text="Drink 2L H2O">
+                           <font>
+                              <Font name="Avenir Next Regular" size="12.0" />
+                           </font>
+                        </JFXCheckBox>
+                        <JFXCheckBox text="Study for Exam 2">
+                           <font>
+                              <Font name="Avenir Next Regular" size="12.0" />
+                           </font>
+                        </JFXCheckBox>
+                        <JFXCheckBox text="Do Groceries">
+                           <font>
+                              <Font name="Avenir Next Regular" size="12.0" />
+                           </font>
+                        </JFXCheckBox>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="191.0" prefHeight="64.0" prefWidth="909.0" AnchorPane.leftAnchor="191.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox layoutX="23.0" layoutY="18.0" spacing="10.0">
+               <children>
+                  <JFXButton styleClass="buttonLinks" text="Other Apps">
+                     <font>
+                        <Font name="Avenir Next Regular" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton styleClass="buttonLinks" text="Reviews">
+                     <font>
+                        <Font name="Avenir Next Regular" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton styleClass="buttonLinks" text="FAQ">
+                     <font>
+                        <Font name="Avenir Next Regular" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton styleClass="buttonLinks" text="About">
+                     <font>
+                        <Font name="Avenir Next Regular" size="13.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <HBox layoutX="527.0" layoutY="19.0" spacing="5.0">
+               <children>
+                  <ImageView fitHeight="41.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/search_icon.png" />
+                     </image>
+                  </ImageView>
+                  <JFXTextField prefHeight="27.0" prefWidth="168.0" promptText="Search" style="-fx-border-radius: 10; -fx-background-radius: 10;" styleClass="textFieldsFXWhiteBG" unFocusColor="#4d4d4d00">
+                     <font>
+                        <Font name="Avenir Next Regular" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="4.0" right="4.0" />
+                     </padding>
+                  </JFXTextField>
+               </children>
+            </HBox>
+            <HBox layoutX="745.0" layoutY="20.0" spacing="10.0">
+               <children>
+                  <Label alignment="BASELINE_RIGHT" contentDisplay="CENTER" prefHeight="24.0" prefWidth="107.0" text="Raul" textAlignment="CENTER">
+                     <font>
+                        <Font name="Avenir Medium" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/profile.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <VBox layoutX="339.0" layoutY="14.0">
+               <children>
+                  <Label alignment="BASELINE_CENTER" prefHeight="9.0" prefWidth="154.0" text="Today is:" textFill="#727272">
+                     <font>
+                        <Font name="Avenir Medium" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BASELINE_CENTER" prefHeight="12.0" prefWidth="154.0" text="September 24th, 2020" textFill="#727272">
+                     <font>
+                        <Font name="Avenir Medium" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
    </children>
 </AnchorPane>
